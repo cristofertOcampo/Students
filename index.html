@@ -1,16 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Students</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Students</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form id="form" class="form" action="" method="">
 
+      <div>
+        <label for="txtAge">Ingrese su edad:</label>
+        <input type="text" name="txtAge" id="txtAge" placeholder="Ej: 28" /> Años
+      </div>
 
+      <hr />
 
-  <script src="./app.js"></script>
-</body>
+      <div>
+        <label for="txtKilometres">Ingrese a cuantos kilometros vive de la sede:</label>
+        <input type="text" name="txtKilometres" id="txtKilometres" placeholder="Ej: 10"/> Kilometros
+      </div>
+
+      <br />
+
+      <button type="button" class="btnSend" id="btnSend">Enviar</button>
+    </form>
+
+    <p id="paragraphGroup"></p>
+
+    <!-- edad
+  <hr>
+  kilometros
+  <hr> 
+  si es menor o vive a mas de 10Km - Jornada "Diurna"
+  <hr>
+  si es mayor y vive a mas de 10Km - Jornada "Tarde"
+  <hr>
+  si es mayor y vive a menos de 10Km - Jornada "Nocturna"
+  <hr>
+  Cada grupo no puede exeder de los 15 estudintes -->
+
+    <script src="./app.js"></script>
+  </body>
 </html>
